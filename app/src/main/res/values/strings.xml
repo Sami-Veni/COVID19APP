@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">COVID-19 Info</string>
+    <string name="title_home">Home</string>
+    <string name="title_country">Country</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">COVID-19 Info</string>
+    <string name="nav_header_subtitle">Stay up to date about COVID-19</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Statistics</string>
+    <string name="menu_slideshow">ChatBot</string>
+    <string name="menu_about">About</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="about_title">About</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about___app">This application is aimed at providing people the necessary basic knowledge about COVID-19.
+        The application provides a functionality where people can ask common questions about COVID-19 and get related answers from
+        an chatbot deployed on the web. People can also get information of the current status of COVID-19 for many countries in the world.
+        This application was developed as an Internship project by: \n\n
+        Jember Liku Amare\n
+        UESTC, China\n
+        December, 2021.
+    </string>
+    <string name="email">3250158980@qq.com</string>
+    <string name="phone">(+86) 132–5837–9427</string>
+    <string name="address">UESTC Shahe Campus:No.4, Section 2, North Jianshe Road Chengdu, China</string>
+    <string name="footer">Liku Amare, UESTC, 2021</string>
+</resources>

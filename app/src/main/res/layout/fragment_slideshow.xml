@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearlayout"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:weightSum="100">
+
+        <EditText
+            android:id="@+id/messageBox"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="3dp"
+            android:layout_weight="85"
+            android:background="@drawable/message_box_background"
+            android:hint=" Type a question"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"/>
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="10"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/btn_back"
+            android:textColor="@color/white"
+            android:text="SEND"
+            android:paddingBottom="2dp"
+            android:layout_marginEnd="2dp" />
+    </LinearLayout>
+</RelativeLayout>

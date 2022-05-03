@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    tools:context=".ui.country.CovidCountryDetail">
+
+    <TextView
+        android:id="@+id/tvDetailCountryName"
+        style="@style/TotalFontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="586dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        tools:text="Country" />
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutCases"
+        android:layout_width="291dp"
+        android:layout_height="408dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="172dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="258dp"
+            android:layout_height="53dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="335dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/LabelFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Cases"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvDetailTotalCases"
+                style="@style/TotalFontStyle"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorTotalConfirmed"
+                android:textSize="26sp"
+                tools:text="80282" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="302dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/LabelFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today Cases"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvDetailTodayCases"
+                style="@style/TotalFontStyle"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/colorTotalConfirmed"
+                android:textSize="26sp"
+                tools:text="45" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="262dp"
+            android:layout_height="47dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="264dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/LabelFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Deaths"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvDetailTotalDeaths"
+                style="@style/TotalFontStyle"
+                android:layout_width="156dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/colorTotalDeaths"
+                android:textSize="26sp"
+                tools:text="3245" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="258dp"
+            android:layout_height="62dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="211dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/LabelFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today Deaths"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvDetailTodayDeaths"
+                style="@style/TotalFontStyle"
+                android:layout_width="155dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/colorTotalDeaths"
+                android:textSize="26sp"
+                tools:text="4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="185dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/LabelFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Recovered"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvDetailTotalRecovered"
+                style="@style/TotalFontStyle"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/colorTotalRecovered"
+                android:textSize="26sp"
+                tools:text="80282" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="47dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="151dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/LabelFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Active"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvDetailTotalActive"
+                style="@style/TotalFontStyle"
+                android:layout_width="163dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/colorTotalConfirmed"
+                android:textSize="26sp"
+                tools:text="3245" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="262dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="117dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/LabelFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Critical"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvDetailTotalCritical"
+                style="@style/TotalFontStyle"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/colorTotalConfirmed"
+                android:textSize="26sp"
+                tools:text="3" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

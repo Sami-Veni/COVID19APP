@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorTotalConfirmed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#fff</item>
+    </style>
+
+    <style name="BottomNavigationView">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+
+    <style name="LabelFontStyle">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TotalFontStyle">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="AboutFont">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="contactinfo">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="contacthead">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="contactcontent">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="MenuItems" parent="AppTheme">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
